@@ -1,0 +1,45 @@
+About This Project
+
+✈ Objective
+Develop a sales dashboard for Blinkit using Power BI to analyze key metrics and provide actionable insights for better business decisions.
+
+✒ Steps Taken
+➡ Data Collection:
+🔸 Compiled sales data from reliable sources for a detailed analysis.
+
+➡ Data Preparation:
+🔸 Imported data into Power BI and cleaned it by:
+
+Removing duplicates and irrelevant columns.
+Handling missing values.
+Adjusting data types as required.
+➡ Data Analysis:
+🔸 Used DAX functions, measures, and calculated columns to extract meaningful insights.
+
+💡 Key Metrics
+✅ Total Sales: $1.20M
+✅ Average Sales per Transaction: $141
+✅ Items Sold: 8,523
+✅ Customer Rating: 3.9
+
+💡 Insights Gained
+🔥 Product Performance:
+
+Low-fat items dominate sales with 64.6% of total revenue.
+Fruits, Vegetables, and Snacks are the top categories, each contributing $0.18M.
+🔥 Store and Location Performance:
+
+Stores opened in 2018 generate the most revenue ($205K).
+Tier 3 cities lead in sales.
+Medium-sized stores account for 42.3% of total sales, followed by small-sized stores at 37%.
+🎯 Recommendations
+✅ Expand inventory and marketing for low-fat items and popular categories like Fruits and Snacks.
+✅ Support stores established in 2018 to maximize their revenue potential.
+✅ Invest in medium-sized stores for better sales contribution.
+✅ Focus on Tier 3 cities with tailored marketing strategies.
+✅ Address customer feedback to improve the 3.9 rating and enhance satisfaction.
+
+I’m confident that this project showcases my ability to handle data, extract insights, and create impactful visualizations. If you think my skills align with your needs, I’d love the opportunity to discuss an entry-level Data Analyst or Power BI Developer role.
+
+Feel free to explore my work further and connect with me!
+
