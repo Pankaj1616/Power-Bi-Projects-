@@ -1,0 +1,33 @@
+Healthcare Performance & Analytics Dashboard
+
+Overview Power BI dashboard analyzing hospital billing and costs across procedures, departments, diagnoses, cities, and service types. Includes KPIs (Billing, Treatment, Medication, Room Charges, Insurance, Out‑of‑Pocket) and visuals: map by city, bars by procedure/department, stacked bars by diagnosis & service type.
+
+Structure data/ – CSVs (visits, patients, cities, providers, departments, diagnoses, procedures, insurance)
+
+powerbi/ – Healthcare_Performance_Analytics.pbix
+
+images/ – dashboard_screenshot.jpg
+
+Data Model Star schema:
+
+Fact: visits (costs, billing, insurance, visit meta)
+
+Dimensions: patients→cities, providers, departments, diagnoses, procedures, insurance
+
+Optional: Calendar linked to VisitDate for time intelligence
+
+Example Measures (DAX)
+
+Billing Amount = SUM(Visits[BillingAmount]) Visits Count = DISTINCTCOUNT(Visits[VisitID]) Average Billing = DIVIDE([Billing Amount], [Visits Count]) Billing % of Total = DIVIDE([Billing Amount], CALCULATE([Billing Amount], ALLSELECTED()))
+
+How to Run Open powerbi/Healthcare_Performance_Analytics.pbix in Power BI Desktop.
+
+Point data sources to the data/ folder.
+
+Refresh and explore.
+
+Notes Ensure numeric types for cost fields and consistent City/State mappings.
+
+Format currency and enable data labels for clarity.
+
+Roadmap Time intelligence (YoY/MTD), drill‑through pages, RLS, automated refresh in Power BI Service.
